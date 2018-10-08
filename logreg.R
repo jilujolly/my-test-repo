@@ -13,7 +13,7 @@ str(Data1)
 Data1$ID<-NULL
 summary(Data1)
 
-#Plots
+#Plots multiple
 hist(Data1$Income)
 hist(Data1$Mortgage) # since the values are mosly 0, this can be converted to a categorical value
 
